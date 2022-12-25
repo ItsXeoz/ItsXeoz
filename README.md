@@ -5,7 +5,15 @@
 <br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
+Algoritma dari source code ini yaitu :
 
+ 1. User menginput banyak baris pada array 2 dimensi.
+ 2. User menginput banyak kolom pada array 2 dimensi.
+ 3. User menginput data dari array 2 dimensi.
+ 4. Setelah menginput data pada array 2 dimensi, output akan ditampilkan sesuai urutan matriks.
+ 5. Merubah Baris pada matriks menjadi kolom dan kolom menjadi baris.
+ 6. Menampilkan output array 2 dimensi dengan baris dan kolom yang terbalik.
+ 
 
 ## Source Code
 <code>
@@ -22,6 +30,7 @@ cout<<"Input Baris : ";cin>>a;
 cout<<"Input Kolom : ";cin>>b;
 cout<<endl;
 
+cout<<"Input Nilai Matriks :"<<endl;
 for (int x=0; x<a; x++){
     for (int y=0; y<b; y++){
         cout<<"["<<x<<"."<<y<<"] : ";cin>>matriks[x][y];
@@ -29,7 +38,6 @@ for (int x=0; x<a; x++){
 }
 cout<<endl;
 
-cout<<"Input Nilai Matriks :"<<endl;
 cout<<"Matriks Sebelum Diubah : "<<endl;
 for (int i=0; i<a; i++){
     for (int j=0; j<b; j++){
@@ -56,3 +64,4 @@ for (int k=0; k<b; k++){
 }
   </code>
 ## Output
+![image](https://user-images.githubusercontent.com/119671026/209475198-6692b4dc-f96f-4a14-b2cf-6d8ea8c745ac.png)
